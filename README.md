@@ -20,9 +20,21 @@ With these stats (DMG, HIT, CRIT, SPD) we then simulate these using the battle m
 - Roll a number from 1 to 100
 - If the number is lower than HIT, then the attack hits
   - Then roll another number, if it is lower than CRIT, then the damage dealt is **three times the DMG**.
-  - If it does not CRIT, deal regular amount of damage.
-- If the attack did not hit, then it misses and deal 0 damage.
+  - If it does not CRIT, it deals regular amount of damage.
+- If the attack did not hit, it misses and deals 0 damage.
 
 The other character does their attack the same way only if their HP is not at 0 yet.
 
 If the SPEED one character is higher than the other more than 4, they can deal the second attack
+
+## Methodology
+- In the class set, we gathered average data of every class, divided them into 3 class levels from the game, and gave them the class weapon accordingly.
+- In the character set, we gathered data of every character at their max level and gave them their according class weapon.
+- Then we match up all the characters in each set, calculate the pre-battle stats, then simulate the battle mechanics 100 times.
+- Each win counts as a point, then we take the sum of all points from every match-up to determine the best character/class.
+
+## Results
+These are the best characters and classes.
+![Fire Emblem Project](https://github.com/user-attachments/assets/bbc25ff2-d8ef-4621-8072-e65d0afcc860)
+![Fire Emblem Project (1)](https://github.com/user-attachments/assets/1f2fef68-4472-4c21-8332-fe008088f441)
+
