@@ -29,10 +29,10 @@ If the SPEED one character is higher than the other more than 4, they can deal t
 
 ## Methodology
 ![7](https://github.com/user-attachments/assets/e166fa00-2a16-470a-95e0-19efd1770017)
-- In the class set, we gathered average data of every class, divided them into 3 class levels from the game, and gave them the class weapon accordingly.
-- In the character set, we gathered data of every character at their max level and gave them their according class weapon.
 ![8](https://github.com/user-attachments/assets/bbab9b12-6c45-4b89-b2d1-bbfdf116c7e6)
 ![9](https://github.com/user-attachments/assets/48871982-4b5c-445b-976c-354203274eda)
+- In the class set, we gathered average data of every class, divided them into 3 class levels from the game, and gave them the class weapon accordingly.
+- In the character set, we gathered data of every character at their max level and gave them their according class weapon.
 - Then we match up all the characters in each set, calculate the pre-battle stats, then simulate the battle mechanics 100 times.
 - Each win counts as a point, then we take the sum of all points from every match-up to determine the best character/class.
 
